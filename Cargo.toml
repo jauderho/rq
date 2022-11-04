@@ -20,7 +20,7 @@ repository = "dflemstr/rq"
 
 [build-dependencies]
 built = "0.3.2"
-env_logger = "0.7.1"
+env_logger = "0.9.1"
 regex = "1.3.1"
 vergen = "3.0.4"
 
@@ -30,7 +30,7 @@ atty = "0.2.13"
 csv = "1.1.1"
 directories = "2.0.2"
 dtoa = "0.4.4"
-env_logger = "0.7.1"
+env_logger = "0.9.1"
 failure = "0.1.6"
 glob = "0.3.0"
 itoa = "0.4.4"
