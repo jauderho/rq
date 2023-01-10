@@ -21,7 +21,7 @@ repository = "dflemstr/rq"
 [build-dependencies]
 built = "0.3.2"
 env_logger = "0.7.1"
-regex = "1.7.0"
+regex = "1.7.1"
 vergen = "3.2.0"
 
 [dependencies]
