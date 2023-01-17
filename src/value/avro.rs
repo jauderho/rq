@@ -86,7 +86,7 @@ where
 
 fn value_to_avro(value: value::Value) -> error::Result<avro_rs::types::Value> {
     use avro_rs::types::Value;
-    use std::convert::TryFrom;
+    // use std::convert::TryFrom;
     match value {
         value::Value::Unit => Ok(Value::Null),
         value::Value::Bool(v) => Ok(Value::Boolean(v)),
