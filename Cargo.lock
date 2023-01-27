@@ -846,7 +846,7 @@ dependencies = [
  "env_logger",
  "failure",
  "glob",
- "itoa 0.4.8",
+ "itoa 1.0.5",
  "log",
  "nix",
  "ordered-float",
