@@ -20,39 +20,40 @@ repository = "dflemstr/rq"
 
 [build-dependencies]
 built = "0.3.2"
-env_logger = "0.7.1"
+env_logger = "0.8.4"
 regex = "1.7.1"
 vergen = "3.2.0"
 
 [dependencies]
 ansi_term = "0.12.1"
 atty = "0.2.14"
-csv = "1.1.6"
+csv = "1.2.1"
 directories = "2.0.2"
 dtoa = "0.4.8"
-env_logger = "0.7.1"
+env_logger = "0.8.4"
 failure = "0.1.8"
 glob = "0.3.1"
 itoa = "0.4.8"
 log = "0.4.17"
 nix = "0.20.2"
 ordered-float = "1.1.1"
-pest = "2.5.4"
+pest = "2.5.6"
 protobuf = "2.28.0"
 rmp = "0.8.11"
 rmpv = "0.4.7"
-serde = "1.0.152"
+serde = "1.0.156"
 serde-hjson = "0.9.1"
 serde-protobuf = "0.8.2"
-serde_cbor = "0.10.2"
-serde_json = "1.0.91"
+serde_cbor = "0.11.2"
+serde_json = "1.0.94"
 serde_yaml = "0.8.26"
 structopt = "0.3.26"
 toml = "0.5.11"
 yaml-rust = "0.4.5"
 
 [dependencies.avro-rs]
-version = "0.6.6"
+#version = "0.6.6"
+version = "0.8.0"
 features = ["snappy"]
 
 [profile.release]
