@@ -51,7 +51,7 @@ structopt = "0.3.26"
 yaml-rust = "0.4.5"
 
 [dependencies.avro-rs]
-version = "0.6.5"
+version = "0.13.0"
 features = ["snappy"]
 
 [dependencies.toml]
