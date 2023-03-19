@@ -55,7 +55,7 @@ version = "0.6.5"
 features = ["snappy"]
 
 [dependencies.toml]
-version = "0.6.0"
+version = "0.7.3"
 features = ["preserve_order"]
 
 [profile.release]
