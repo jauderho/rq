@@ -22,7 +22,7 @@ repository = "dflemstr/rq"
 built = "0.5.2"
 env_logger = "0.9.3"
 regex = "1.10.6"
-vergen = "7.5.1"
+vergen = "9.0.0"
 
 [dependencies]
 ansi_term = "0.12.1"
